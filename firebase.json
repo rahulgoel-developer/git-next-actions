@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": ".next",
+    "public": "out",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -11,35 +11,6 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false,
-    "headers": [
-      {
-        "source": "/fonts/**",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      }
-    ],
-    "predeploy": [
-      "npm --prefix \"$RESOURCE_DIR\" run build"
-    ],
-    "deploy": {
-      "command": "firebase deploy --only hosting",
-      "preview": "npm --prefix \"$RESOURCE_DIR\" run build && firebase deploy --only hosting --preview",
-      "functions": "firebase deploy --only functions"
-    },
-    "functions": {
-      "source": "functions"
-    }
+    ]
   }
 }
-
-
-
-
-
