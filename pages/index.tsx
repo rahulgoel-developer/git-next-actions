@@ -9,7 +9,7 @@ export default function MyPage() {
           rel="stylesheet"
         />
       </Head>
-      <h1>edited git-action-next jjs</h1>
+      <h1>edited git-action-next jjs R khush hua</h1>
     </div>
   );
 }
