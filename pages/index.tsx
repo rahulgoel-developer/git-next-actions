@@ -9,7 +9,7 @@ export default function MyPage() {
           rel="stylesheet"
         />
       </Head>
-      <h1>edited git-action</h1>
+      <h1>edited git-action-next</h1>
     </div>
   );
 }
