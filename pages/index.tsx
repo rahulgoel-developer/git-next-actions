@@ -9,7 +9,7 @@ export default function MyPage() {
           rel="stylesheet"
         />
       </Head>
-      <h1>Hello world!</h1>
+      <h1>edited git-action</h1>
     </div>
   );
 }
